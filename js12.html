@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js12</title>	
+	<style>
+		body{
+			background-color: #1685a9;
+		}
+		main{
+			width: 300px;
+			height: 300px;
+			border:2px solid #000;
+			margin:25vh auto;
+			padding:0px;
+			border-radius: 7px;
+			background-image: url(imgsrc/beach2.png);
+			-webkit-background-size: cover;
+			background-size: cover;
+
+		}
+		button{
+			width: 90px;
+			margin-top:20px;
+			border:1px solid #9F6F09;
+			color:#00F3FF;
+			
+			background-color: rgba(0,0,0,.5);
+			border:1px solid #000;
+			border-radius: 3px;
+			outline: none;
+
+		}
+		button:nth-of-type(1){
+			margin-left:10px;
+
+		}
+		button:hover{
+			color:#000;
+			
+			background-color: rgba(255,255,255,.5);
+		}
+		#pass{
+			margin-left:5px;
+		}
+		label{
+			margin-left:20px;
+
+		}
+		div{
+			height: 15px;
+			width: 80%;
+			margin:0 auto;	
+			font-size: 5px;
+		
+			
+		}
+		h3{
+			margin-left: 100px;
+		}
+		label{
+			font-weight: bold;
+		}
+		input{
+			border-radius: 3px;
+			outline:none;
+			border:1px solid #000;
+			
+			background-color: rgba(0,0,0,.5);
+			color:#00F3FF;
+		}
+		input:focus{
+			background-color: rgba(255,255,255,.6);
+			color:#000;
+
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<h3>OceanDeep</h3>
+		<label for="name">Username</label>
+		<input type="text" name="" id="name">
+		<div id="s1"></div>
+		<label for="pass">Password</label>
+		<span></span>
+		<input type="password" name="" id="pass">
+		<div id="s2"></div>
+		<button type="submit" id="register">register</button>
+		<button type="submit" id="login">login</button>
+		<button type="submit"id="cancel">cancel</button>
+		
+	</main>
+
+	<script src="js12.js"></script>
+</body>
+</html>
+
+<!-- localStorage使用范例。
+localStorage.name="xiaoming";
+"xiaoming"
+localStorage.setItem("age","21")
+undefined
+localStorage.removeItem("name")
+undefined
+localStorage.clear()
+undefined
+localStorage.key(0)
+"name" -->
+<!-- key里面的0，1，2；是跟数组一样的 -->
+
+<!-- 老师又用了什么JSON.parse();JSON.stringify();
+for(i in info); -->
